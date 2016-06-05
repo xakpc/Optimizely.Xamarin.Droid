@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizely.Xamarin.Droid", "Optimizely.Xamarin.Droid\Optimizely.Xamarin.Droid.csproj", "{F316CF0B-A082-484C-B33C-2600BEC08374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizely.Xamarin.Droid.TestApp", "Optimizely.Xamarin.Droid.TestApp\Optimizely.Xamarin.Droid.TestApp.csproj", "{8802C40A-EE6E-467A-A60A-D7A4D51EB025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F316CF0B-A082-484C-B33C-2600BEC08374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F316CF0B-A082-484C-B33C-2600BEC08374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F316CF0B-A082-484C-B33C-2600BEC08374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F316CF0B-A082-484C-B33C-2600BEC08374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

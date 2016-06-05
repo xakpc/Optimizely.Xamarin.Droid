@@ -1,0 +1,36 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!-- fixup the namespaces, notice that we have to do one for each namespace. -->
+  <!--<attr path="/api/package[@name='com.optimizely']" name="managedName">OptimizelyNs</attr>-->
+
+  
+  <!-- Remove OptimizelyPreview nodes -->
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyEditModeInfoView']" />
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyHidePreviewInfoView']" />
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyLogInfoView']" />
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyPreviewModeInfoRootView']" />
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelySwitchVariationInfoView']" />
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyTestDetailsInfoView']" />
+
+  <!-- Remove Everything that not working -->
+  <remove-node path="/api/package[@name='com.optimizely.Editor']/class[@name='OptimizelyClassLoaderTask']" />
+
+  <!-- Remove Evaluators -->
+  <remove-node path="/api/package[@name='com.optimizely.Audiences']" />
+
+  
+
+  <!--<attr path="/api/package[@name='com.optimizely.Editor']/class[@name='OptimizelyClassLoaderTask']/method[@name='doInBackground']"
+    name="managedReturn">Java.Lang.Object</attr>
+
+  <attr path="/api/package[@name='com.optimizely.Editor']/class[@name='OptimizelyClassLoaderTask']/method[@name='doInBackground']/parameter[@name='p0']"
+    name="managedType">params Java.Lang.Object[]</attr>-->
+
+
+</metadata>
