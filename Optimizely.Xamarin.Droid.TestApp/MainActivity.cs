@@ -8,10 +8,15 @@ using Android.OS;
 
 namespace Optimizely.Xamarin.Droid.TestApp
 {
+
     [Activity(Label = "Optimizely.Xamarin.Droid.TestApp", MainLauncher = true, Icon = "@drawable/icon")]
+    [IntentFilter(
+        new[]{ "android.intent.action.VIEW" }, 
+        Categories = new[] { "android.intent.category.DEFAULT", "android.intent.category.BROWSABLE" },
+        DataScheme = TODO)]
     public class MainActivity : Activity
     {
-        int count = 1;
+        private int _count = 1;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -22,9 +27,11 @@ namespace Optimizely.Xamarin.Droid.TestApp
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            var button = FindViewById<Button>(Resource.Id.MyButton);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            button.Click += delegate { button.Text = $"{_count++} clicks!"; };
+
+            Com.Optimizely.Optimizely.StartOptimizelyWithAPIToken(TODO, Application);
         }
     }
 }
