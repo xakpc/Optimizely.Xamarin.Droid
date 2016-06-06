@@ -67,10 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseActivity.cs" />
     <Compile Include="LandingTableActivity.cs" />
+    <Compile Include="LiveVariablesAdapter.cs" />
+    <Compile Include="LiveVariablesListActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="OptimezelyConstants.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleVariationTypeAdapter.cs" />
+    <Compile Include="VisualEditorActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\fonts\Gotham-Bold.otf" />
@@ -78,7 +84,6 @@
     <AndroidAsset Include="Assets\fonts\Gotham-Light.otf" />
     <AndroidAsset Include="Assets\fonts\Gotham-Medium.otf" />
     <AndroidAsset Include="Assets\fonts\Gotham-MediumItalic.otf" />
-    <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -199,6 +204,18 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\LandingTable.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\LandingTableItem.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\VisualEditor.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ActivityLiveVariables.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ActivityLiveVariablesItem.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

@@ -46,8 +46,7 @@
             android:textColor="#ffffff"
             android:id="@+id/button"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:onClick="goToMainScreen" />
+            android:layout_centerHorizontal="true" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

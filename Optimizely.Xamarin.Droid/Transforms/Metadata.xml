@@ -1,13 +1,17 @@
 <metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
   <!-- fixup the namespaces, notice that we have to do one for each namespace. -->
-  <!--<attr path="/api/package[@name='com.optimizely']" name="managedName">OptimizelyNs</attr>-->
+  <!--<attr path="/api/package[@name='com.optimizely']" name="managedName">Optimizely</attr>
+  <attr path="/api/package[@name='com.optimizely.Assets']" name="managedName">Optimizely.Assets</attr>
+  <attr path="/api/package[@name='com.optimizely.codeblocks']" name="managedName">Optimizely.CodeBlocks</attr>
+  <attr path="/api/package[@name='com.optimizely.core']" name="managedName">Optimizely.Core</attr>
+  <attr path="/api/package[@name='com.optimizely.crashreporting']" name="managedName">Optimizely.Crashreporting</attr>
+  <attr path="/api/package[@name='com.optimizely.fonts']" name="managedName">Optimizely.Fonts</attr>
+  <attr path="/api/package[@name='com.optimizely.fragment']" name="managedName">Optimizely.Fragment</attr>
+  <attr path="/api/package[@name='com.optimizely.integration']" name="managedName">Optimizely.Integration</attr>
+  <attr path="/api/package[@name='com.optimizely.json']" name="managedName">Optimizely.JSON</attr>
+  <attr path="/api/package[@name='com.optimizely.utils']" name="managedName">Optimizely.Utils</attr>
+  <attr path="/api/package[@name='com.optimizely.variable']" name="managedName">Optimizely.Variable</attr>
+  <attr path="/api/package[@name='com.optimizely.view']" name="managedName">Optimizely.View</attr>-->  
 
   
   <!-- Remove OptimizelyPreview nodes -->

@@ -18,6 +18,7 @@ using Android.App;
 using Android.Content;
 using Android.Graphics;
 using Android.OS;
+using Android.Support.V7.App;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
@@ -25,13 +26,15 @@ using Com.Optimizely.Integration;
 
 namespace Optimizely.Xamarin.Droid.TestApp
 {
-    [Activity(Label = "Optimizely.Xamarin.Droid.TestApp", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Optimizely.Xamarin.Droid.TestApp", MainLauncher = true, 
+        Icon = "@drawable/icon", Theme = "@style/AppTheme")]
     [IntentFilter(
         new[] {"android.intent.action.VIEW"},
         Categories = new[] {"android.intent.category.DEFAULT", "android.intent.category.BROWSABLE"},
-        DataScheme = TODO)]
-    public class MainActivity : Activity
+        DataScheme = OptimezelyConstants.ProjectId)]
+    public class MainActivity : BaseActivity
     {
+        
         private string returning_customer = "true";
         private string tag = "OPTLY";
 
@@ -54,6 +57,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
             var welcomeText = FindViewById<TextView>(Resource.Id.welcome_text);
             welcomeText.SetTypeface(tf, TypefaceStyle.Normal);
 
+            var btn = FindViewById<Button>(Resource.Id.button);
+            btn.Click += (sender, args) => goToMainScreen();
 
             // Below are instructions for initial setup, lines marked as optional
             // are options, lines marked as required are required
@@ -83,7 +88,7 @@ namespace Optimizely.Xamarin.Droid.TestApp
             // optimizely.com/dashboard.  It should look like: "AAMseu0A6cJKXYL7RiH_TgxkvTRMOCvS~123456"
 
 
-            Com.Optimizely.Optimizely.StartOptimizelyWithAPIToken(TODO,
+            Com.Optimizely.Optimizely.StartOptimizelyWithAPIToken(OptimezelyConstants.Token,
                 Application);
 
             // [OPTIMIZELY] (OPTIONAL) Register the plugin for the integration you would like to use
@@ -91,31 +96,7 @@ namespace Optimizely.Xamarin.Droid.TestApp
             // Optimizely.registerPlugin(new Optimizely<ANALYTICS_PROVIDER>Integration());
         }
 
-
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            // Inflate the menu; this adds items to the action bar if it is present.
-            MenuInflater.Inflate(Resource.Menu.menu_main, menu);
-            return true;
-        }
-
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            //        // Handle action bar item clicks here. The action bar will
-            //        // automatically handle clicks on the Home/Up button, so long
-            //        // as you specify a parent activity in AndroidManifest.xml.
-            var id = item.ItemId;
-
-            //        //noinspection SimplifiableIfStatement
-            if (id == Resource.Id.action_settings)
-            {
-                return true;
-            }
-
-            return base.OnOptionsItemSelected(item);
-        }
-
-        public void goToMainScreen(View view)
+        public void goToMainScreen()
         {
             var intent = new Intent(this, typeof(LandingTableActivity));
             StartActivity(intent);
@@ -165,5 +146,7 @@ namespace Optimizely.Xamarin.Droid.TestApp
                 Log.Info(tag, "Received message");
             }
         }
+
+        public override int MenuId => Resource.Menu.menu_main;
     }
 }
