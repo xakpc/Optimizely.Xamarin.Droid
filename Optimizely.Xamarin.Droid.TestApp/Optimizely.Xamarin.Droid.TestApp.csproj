@@ -103,12 +103,6 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Optimizely.Xamarin.Droid\Optimizely.Xamarin.Droid.csproj">
-      <Project>{f316cf0b-a082-484c-b33c-2600bec08374}</Project>
-      <Name>Optimizely.Xamarin.Droid</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\optimizely_logo_blue_1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -224,6 +218,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\ActivityCodeBlocks.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Optimizely.Xamarin.Droid\Optimizely.Xamarin.Droid.csproj">
+      <Project>{f316cf0b-a082-484c-b33c-2600bec08374}</Project>
+      <Name>Optimizely.Xamarin.Droid</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

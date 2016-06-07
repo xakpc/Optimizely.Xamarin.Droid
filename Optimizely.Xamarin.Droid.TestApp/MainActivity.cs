@@ -11,6 +11,7 @@
 //  Created by Pam Ongchin on 10/19/15.
 //  Copyright (c) 2015 Optimizely. All rights reserved.
 //
+//  Ported to Xamarin by Pavel Osadchuk on 07/06/2016
 
 
 using System.Collections.Generic;
@@ -18,9 +19,7 @@ using Android.App;
 using Android.Content;
 using Android.Graphics;
 using Android.OS;
-using Android.Support.V7.App;
 using Android.Util;
-using Android.Views;
 using Android.Widget;
 using Com.Optimizely.Integration;
 
@@ -58,7 +57,7 @@ namespace Optimizely.Xamarin.Droid.TestApp
             welcomeText.SetTypeface(tf, TypefaceStyle.Normal);
 
             var btn = FindViewById<Button>(Resource.Id.button);
-            btn.Click += (sender, args) => goToMainScreen();
+            btn.Click += (sender, args) => GoToMainScreen();
 
             // Below are instructions for initial setup, lines marked as optional
             // are options, lines marked as required are required
@@ -96,7 +95,7 @@ namespace Optimizely.Xamarin.Droid.TestApp
             // Optimizely.registerPlugin(new Optimizely<ANALYTICS_PROVIDER>Integration());
         }
 
-        public void goToMainScreen()
+        public void GoToMainScreen()
         {
             var intent = new Intent(this, typeof(LandingTableActivity));
             StartActivity(intent);

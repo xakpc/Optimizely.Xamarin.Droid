@@ -1,18 +1,26 @@
 <metadata>
   <!-- fixup the namespaces, notice that we have to do one for each namespace. -->
+  <!-- TODO: Namespace bindings does not work yet -->
   <!--<attr path="/api/package[@name='com.optimizely']" name="managedName">Optimizely</attr>
   <attr path="/api/package[@name='com.optimizely.Assets']" name="managedName">Optimizely.Assets</attr>
-  <attr path="/api/package[@name='com.optimizely.codeblocks']" name="managedName">Optimizely.CodeBlocks</attr>
-  <attr path="/api/package[@name='com.optimizely.core']" name="managedName">Optimizely.Core</attr>
-  <attr path="/api/package[@name='com.optimizely.crashreporting']" name="managedName">Optimizely.Crashreporting</attr>
+  <attr path="/api/package[@name='com.optimizely.Audiences']" name="managedName">Optimizely.Audiences</attr>
+  <attr path="/api/package[@name='com.optimizely.CodeBlocks']" name="managedName">Optimizely.CodeBlocks</attr>
+  <attr path="/api/package[@name='com.optimizely.Core']" name="managedName">Optimizely.Core</attr>
+  <attr path="/api/package[@name='com.optimizely.Editor']" name="managedName">Optimizely.Editor</attr>
+  <attr path="/api/package[@name='com.optimizely.JSON']" name="managedName">Optimizely.JSON</attr>
+  <attr path="/api/package[@name='com.optimizely.LogAndEvent']" name="managedName">Optimizely.LogAndEvent</attr>
+  <attr path="/api/package[@name='com.optimizely.LogAndEvent.Data']" name="managedName">Optimizely.LogAndEvent.Data</attr>
+  <attr path="/api/package[@name='com.optimizely.Network']" name="managedName">Optimizely.Network</attr>
+  <attr path="/api/package[@name='com.optimizely.Network.Socket.Listeners']" name="managedName">Optimizely.Network.Socket.Listeners</attr>
+  <attr path="/api/package[@name='com.optimizely.Network.websocket']" name="managedName">Optimizely.Network.Websocket</attr>
+  <attr path="/api/package[@name='com.optimizely.Preview']" name="managedName">Optimizely.Preview</attr>
+  <attr path="/api/package[@name='com.optimizely.Variable']" name="managedName">Optimizely.Variable</attr>
+  <attr path="/api/package[@name='com.optimizely.View']" name="managedName">Optimizely.View</attr>
+  <attr path="/api/package[@name='com.optimizely.crashreporting']" name="managedName">Optimizely.Crashreporting</attr>  
   <attr path="/api/package[@name='com.optimizely.fonts']" name="managedName">Optimizely.Fonts</attr>
   <attr path="/api/package[@name='com.optimizely.fragment']" name="managedName">Optimizely.Fragment</attr>
-  <attr path="/api/package[@name='com.optimizely.integration']" name="managedName">Optimizely.Integration</attr>
-  <attr path="/api/package[@name='com.optimizely.json']" name="managedName">Optimizely.JSON</attr>
-  <attr path="/api/package[@name='com.optimizely.utils']" name="managedName">Optimizely.Utils</attr>
-  <attr path="/api/package[@name='com.optimizely.variable']" name="managedName">Optimizely.Variable</attr>
-  <attr path="/api/package[@name='com.optimizely.view']" name="managedName">Optimizely.View</attr>-->  
-
+  <attr path="/api/package[@name='com.optimizely.integration']" name="managedName">Optimizely.Integration</attr>  
+  <attr path="/api/package[@name='com.optimizely.utils']" name="managedName">Optimizely.Utils</attr>-->    
   
   <!-- Remove OptimizelyPreview nodes -->
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyEditModeInfoView']" />
