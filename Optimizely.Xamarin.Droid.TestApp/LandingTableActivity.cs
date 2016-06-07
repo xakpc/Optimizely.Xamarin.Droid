@@ -42,9 +42,9 @@ namespace Optimizely.Xamarin.Droid.TestApp
                 case 1:
                     intent = new Intent(this, typeof(LiveVariablesListActivity));
                     break;
-                    //case 2:
-                    //    intent = new Intent(this, typeof(CodeBlocksActivity));
-                    //    break;
+                case 2:
+                    intent = new Intent(this, typeof(CodeBlocksActivity));
+                    break;
             }
 
             if (intent != null)
