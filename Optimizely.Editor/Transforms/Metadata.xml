@@ -1,0 +1,18 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='com.optimizely.Network.Socket.Listeners']" />
+  -->
+
+  <remove-node path="/api/package[@name='com.optimizely.Network.Socket.Listeners']" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='PreviewLogActivity']" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='PreviewLogActivity.LogAdapter']" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='PreviewExpsActivity']" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='PreviewExpsActivity.ExpsAdapter']" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='PreviewVarsActivity']" />
+  
+  
+</metadata>

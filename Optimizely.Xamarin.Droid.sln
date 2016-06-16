@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizely.Xamarin.Droid", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizely.Xamarin.Droid.TestApp", "Optimizely.Xamarin.Droid.TestApp\Optimizely.Xamarin.Droid.TestApp.csproj", "{8802C40A-EE6E-467A-A60A-D7A4D51EB025}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizely.View", "Optimizely.Xamarin.Droid.View\Optimizely.View.csproj", "{3DC9F99A-2D77-4CDF-9B68-C8E9D1E345E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizely.Editor", "Optimizely.Editor\Optimizely.Editor.csproj", "{FF65B684-0067-4DC0-A288-04F1D919DF45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8802C40A-EE6E-467A-A60A-D7A4D51EB025}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3DC9F99A-2D77-4CDF-9B68-C8E9D1E345E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC9F99A-2D77-4CDF-9B68-C8E9D1E345E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC9F99A-2D77-4CDF-9B68-C8E9D1E345E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC9F99A-2D77-4CDF-9B68-C8E9D1E345E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF65B684-0067-4DC0-A288-04F1D919DF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF65B684-0067-4DC0-A288-04F1D919DF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF65B684-0067-4DC0-A288-04F1D919DF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF65B684-0067-4DC0-A288-04F1D919DF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,6 +43,10 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GoogleGson, Version=2.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GoogleGson.2.6.2.0\lib\MonoAndroid\GoogleGson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
@@ -220,6 +224,14 @@
     <AndroidResource Include="Resources\layout\ActivityCodeBlocks.axml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Optimizely.Editor\Optimizely.Editor.csproj">
+      <Project>{ff65b684-0067-4dc0-a288-04f1d919df45}</Project>
+      <Name>Optimizely.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Optimizely.Xamarin.Droid.View\Optimizely.View.csproj">
+      <Project>{3dc9f99a-2d77-4cdf-9b68-c8e9d1e345e2}</Project>
+      <Name>Optimizely.View</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Optimizely.Xamarin.Droid\Optimizely.Xamarin.Droid.csproj">
       <Project>{f316cf0b-a082-484c-b33c-2600bec08374}</Project>
       <Name>Optimizely.Xamarin.Droid</Name>

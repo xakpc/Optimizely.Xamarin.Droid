@@ -23,26 +23,17 @@
   <attr path="/api/package[@name='com.optimizely.utils']" name="managedName">Optimizely.Utils</attr>-->    
   
   <!-- Remove OptimizelyPreview nodes -->
-  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyEditModeInfoView']" />
+  <!--<remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyEditModeInfoView']" />
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyHidePreviewInfoView']" />
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyLogInfoView']" />
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyPreviewModeInfoRootView']" />
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelySwitchVariationInfoView']" />
-  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyTestDetailsInfoView']" />
+  <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyTestDetailsInfoView']" />-->
 
   <!-- Remove Everything that not working -->
-  <remove-node path="/api/package[@name='com.optimizely.Editor']/class[@name='OptimizelyClassLoaderTask']" />
-
-  <!-- Remove Evaluators -->
+  <remove-node path="/api/package[@name='com.optimizely.integration']/class[@name='OptimizelyClassLoaderTask']" />
   <remove-node path="/api/package[@name='com.optimizely.Audiences']" />
 
-  
-
-  <!--<attr path="/api/package[@name='com.optimizely.Editor']/class[@name='OptimizelyClassLoaderTask']/method[@name='doInBackground']"
-    name="managedReturn">Java.Lang.Object</attr>
-
-  <attr path="/api/package[@name='com.optimizely.Editor']/class[@name='OptimizelyClassLoaderTask']/method[@name='doInBackground']/parameter[@name='p0']"
-    name="managedType">params Java.Lang.Object[]</attr>-->
-
-
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='Optimizely']/method[@name='setRunningMode']" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='Optimizely']/method[@name='setStartState']" />
 </metadata>

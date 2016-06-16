@@ -773,29 +773,29 @@ namespace Optimizely.Xamarin.Droid.TestApp
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a003a
-			public const int abc_background_cache_hint_selector_material_dark = 2131361850;
+			// aapt resource value: 0x7f0a003d
+			public const int abc_background_cache_hint_selector_material_dark = 2131361853;
 			
-			// aapt resource value: 0x7f0a003b
-			public const int abc_background_cache_hint_selector_material_light = 2131361851;
+			// aapt resource value: 0x7f0a003e
+			public const int abc_background_cache_hint_selector_material_light = 2131361854;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_input_method_navigation_guard = 2131361792;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int abc_primary_text_disable_only_material_dark = 2131361852;
-			
-			// aapt resource value: 0x7f0a003d
-			public const int abc_primary_text_disable_only_material_light = 2131361853;
-			
-			// aapt resource value: 0x7f0a003e
-			public const int abc_primary_text_material_dark = 2131361854;
-			
 			// aapt resource value: 0x7f0a003f
-			public const int abc_primary_text_material_light = 2131361855;
+			public const int abc_primary_text_disable_only_material_dark = 2131361855;
 			
 			// aapt resource value: 0x7f0a0040
-			public const int abc_search_url_text = 2131361856;
+			public const int abc_primary_text_disable_only_material_light = 2131361856;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int abc_primary_text_material_dark = 2131361857;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int abc_primary_text_material_light = 2131361858;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int abc_search_url_text = 2131361859;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int abc_search_url_text_normal = 2131361793;
@@ -806,11 +806,14 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0a0003
 			public const int abc_search_url_text_selected = 2131361795;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int abc_secondary_text_material_dark = 2131361857;
+			// aapt resource value: 0x7f0a0044
+			public const int abc_secondary_text_material_dark = 2131361860;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int abc_secondary_text_material_light = 2131361858;
+			// aapt resource value: 0x7f0a0045
+			public const int abc_secondary_text_material_light = 2131361861;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int accent = 2131361850;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int accent_material_dark = 2131361796;
@@ -920,6 +923,12 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0a0027
 			public const int material_grey_900 = 2131361831;
 			
+			// aapt resource value: 0x7f0a003b
+			public const int primary = 2131361851;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int primary_dark = 2131361852;
+			
 			// aapt resource value: 0x7f0a0028
 			public const int primary_dark_material_dark = 2131361832;
 			
@@ -968,11 +977,11 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0a0037
 			public const int switch_thumb_disabled_material_light = 2131361847;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int switch_thumb_material_dark = 2131361859;
+			// aapt resource value: 0x7f0a0046
+			public const int switch_thumb_material_dark = 2131361862;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int switch_thumb_material_light = 2131361860;
+			// aapt resource value: 0x7f0a0047
+			public const int switch_thumb_material_light = 2131361863;
 			
 			// aapt resource value: 0x7f0a0038
 			public const int switch_thumb_normal_material_dark = 2131361848;
@@ -1223,6 +1232,9 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			
 			// aapt resource value: 0x7f07004a
 			public const int notification_subtext_size = 2131165258;
+			
+			// aapt resource value: 0x7f07004d
+			public const int padding = 2131165261;
 			
 			static Dimension()
 			{
@@ -1493,40 +1505,55 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			public const int gears = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int Icon = 2130837589;
+			public const int ic_check_black_24dp = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int letter_i_inside_circle = 2130837590;
+			public const int ic_close_black_24dp = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int live_variables_icon = 2130837591;
+			public const int ic_exit_to_app_white_24dp = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int load_default_screen = 2130837592;
-			
-			// aapt resource value: 0x7f020060
-			public const int notification_template_icon_bg = 2130837600;
+			public const int ic_info_black_18dp = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int optimizely_logo_blue_1 = 2130837593;
+			public const int ic_library_books_white_24dp = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int optimizely_logo_darkblue = 2130837594;
+			public const int Icon = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int picture = 2130837595;
+			public const int letter_i_inside_circle = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int small_white_logo_for_status_bar = 2130837596;
+			public const int live_variables_icon = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int visual_editor_icon = 2130837597;
+			public const int load_default_screen = 2130837597;
+			
+			// aapt resource value: 0x7f020065
+			public const int notification_template_icon_bg = 2130837605;
 			
 			// aapt resource value: 0x7f02005e
-			public const int widget_co_logo_green = 2130837598;
+			public const int optimizely_logo_blue_1 = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int widget_co_logo_red = 2130837599;
+			public const int optimizely_logo_darkblue = 2130837599;
+			
+			// aapt resource value: 0x7f020060
+			public const int picture = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int small_white_logo_for_status_bar = 2130837601;
+			
+			// aapt resource value: 0x7f020062
+			public const int visual_editor_icon = 2130837602;
+			
+			// aapt resource value: 0x7f020063
+			public const int widget_co_logo_green = 2130837603;
+			
+			// aapt resource value: 0x7f020064
+			public const int widget_co_logo_red = 2130837604;
 			
 			static Drawable()
 			{
@@ -1541,8 +1568,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0064
-			public const int action0 = 2131427428;
+			// aapt resource value: 0x7f0b006d
+			public const int action0 = 2131427437;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int action_bar = 2131427393;
@@ -1568,8 +1595,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0042
 			public const int action_context_bar = 2131427394;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int action_divider = 2131427432;
+			// aapt resource value: 0x7f0b0071
+			public const int action_divider = 2131427441;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1586,23 +1613,26 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0023
 			public const int action_mode_close_button = 2131427363;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int action_settings = 2131427450;
+			// aapt resource value: 0x7f0b0084
+			public const int action_settings = 2131427460;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int activity_chooser_view_content = 2131427364;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int activity_live_variables_discount = 2131427414;
+			// aapt resource value: 0x7f0b0061
+			public const int activity_live_variables_discount = 2131427425;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int activity_live_variables_grid_layout = 2131427415;
+			// aapt resource value: 0x7f0b0062
+			public const int activity_live_variables_grid_layout = 2131427426;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int activity_live_variables_list = 2131427413;
+			// aapt resource value: 0x7f0b0060
+			public const int activity_live_variables_list = 2131427424;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int activity_visual_editor = 2131427441;
+			// aapt resource value: 0x7f0b0085
+			public const int activity_log = 2131427461;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int activity_visual_editor = 2131427454;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int alertTitle = 2131427376;
@@ -1613,20 +1643,26 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0019
 			public const int beginning = 2131427353;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int button = 2131427425;
+			// aapt resource value: 0x7f0b0055
+			public const int button = 2131427413;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int button2 = 2131427414;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int buttonBar = 2131427416;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int buttonPanel = 2131427371;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int cancel_action = 2131427429;
+			// aapt resource value: 0x7f0b006e
+			public const int cancel_action = 2131427438;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int checkbox = 2131427385;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int chronometer = 2131427435;
+			// aapt resource value: 0x7f0b0074
+			public const int chronometer = 2131427444;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int collapseActionView = 2131427357;
@@ -1646,29 +1682,38 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0027
 			public const int default_activity_button = 2131427367;
 			
+			// aapt resource value: 0x7f0b007d
+			public const int desc = 2131427453;
+			
 			// aapt resource value: 0x7f0b000c
 			public const int disableHome = 2131427340;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int editText = 2131427444;
+			// aapt resource value: 0x7f0b005a
+			public const int done = 2131427418;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int editText2 = 2131427446;
+			// aapt resource value: 0x7f0b0080
+			public const int editText = 2131427456;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int editText3 = 2131427448;
+			// aapt resource value: 0x7f0b0081
+			public const int editText2 = 2131427457;
+			
+			// aapt resource value: 0x7f0b0082
+			public const int editText3 = 2131427458;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int edit_query = 2131427395;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int email_label = 2131427443;
+			// aapt resource value: 0x7f0b007f
+			public const int email_label = 2131427455;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int end_padder = 2131427440;
+			// aapt resource value: 0x7f0b0079
+			public const int end_padder = 2131427449;
+			
+			// aapt resource value: 0x7f0b0057
+			public const int expList = 2131427415;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int expand_activities_button = 2131427365;
@@ -1676,11 +1721,11 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0038
 			public const int expanded_menu = 2131427384;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int firstLine = 2131427423;
+			// aapt resource value: 0x7f0b006a
+			public const int firstLine = 2131427434;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int gearSell = 2131427411;
+			// aapt resource value: 0x7f0b005e
+			public const int gearSell = 2131427422;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int home = 2131427332;
@@ -1691,23 +1736,29 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0029
 			public const int icon = 2131427369;
 			
+			// aapt resource value: 0x7f0b007a
+			public const int iconFrame = 2131427450;
+			
 			// aapt resource value: 0x7f0b001e
 			public const int ifRoom = 2131427358;
 			
 			// aapt resource value: 0x7f0b0026
 			public const int image = 2131427366;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int info = 2131427439;
+			// aapt resource value: 0x7f0b0078
+			public const int info = 2131427448;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int landingTableActivityBkgd = 2131427420;
+			// aapt resource value: 0x7f0b0067
+			public const int landingTableActivityBkgd = 2131427431;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int line1 = 2131427433;
+			// aapt resource value: 0x7f0b0072
+			public const int line1 = 2131427442;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int line3 = 2131427437;
+			// aapt resource value: 0x7f0b0076
+			public const int line3 = 2131427446;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int list = 2131427419;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
@@ -1715,8 +1766,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0028
 			public const int list_item = 2131427368;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int media_actions = 2131427431;
+			// aapt resource value: 0x7f0b0070
+			public const int media_actions = 2131427440;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -1733,20 +1784,20 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b000a
 			public const int normal = 2131427338;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int optimizelyGears = 2131427412;
+			// aapt resource value: 0x7f0b005f
+			public const int optimizelyGears = 2131427423;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int optimizelyLogo = 2131427424;
+			// aapt resource value: 0x7f0b006b
+			public const int optimizelyLogo = 2131427435;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int optimizelyLogo1 = 2131427408;
+			// aapt resource value: 0x7f0b005c
+			public const int optimizelyLogo1 = 2131427420;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int parentPanel = 2131427373;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int product_image_view = 2131427416;
+			// aapt resource value: 0x7f0b0063
+			public const int product_image_view = 2131427427;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int progress_circular = 2131427333;
@@ -1754,8 +1805,14 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0006
 			public const int progress_horizontal = 2131427334;
 			
+			// aapt resource value: 0x7f0b0086
+			public const int quit = 2131427462;
+			
 			// aapt resource value: 0x7f0b003b
 			public const int radio = 2131427387;
+			
+			// aapt resource value: 0x7f0b0059
+			public const int reset = 2131427417;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
@@ -1799,8 +1856,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b004e
 			public const int search_voice_btn = 2131427406;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int secondLine = 2131427422;
+			// aapt resource value: 0x7f0b0069
+			public const int secondLine = 2131427433;
 			
 			// aapt resource value: 0x7f0b004f
 			public const int select_dialog_listview = 2131427407;
@@ -1817,8 +1874,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0011
 			public const int showTitle = 2131427345;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int sign_in_2 = 2131427410;
+			// aapt resource value: 0x7f0b005d
+			public const int sign_in_2 = 2131427421;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int spacer = 2131427372;
@@ -1835,8 +1892,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b0018
 			public const int src_over = 2131427352;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int status_bar_latest_event_content = 2131427430;
+			// aapt resource value: 0x7f0b006f
+			public const int status_bar_latest_event_content = 2131427439;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int submit_area = 2131427404;
@@ -1844,44 +1901,47 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b000b
 			public const int tabMode = 2131427339;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int take_to_widgets = 2131427449;
+			// aapt resource value: 0x7f0b0083
+			public const int take_to_widgets = 2131427459;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int test_view_msrp = 2131427418;
+			// aapt resource value: 0x7f0b0065
+			public const int test_view_msrp = 2131427429;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int text = 2131427438;
+			// aapt resource value: 0x7f0b0077
+			public const int text = 2131427447;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int text2 = 2131427436;
+			// aapt resource value: 0x7f0b0075
+			public const int text2 = 2131427445;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int textView = 2131427426;
-			
-			// aapt resource value: 0x7f0b0072
-			public const int textView2 = 2131427442;
-			
-			// aapt resource value: 0x7f0b0075
-			public const int textView3 = 2131427445;
-			
-			// aapt resource value: 0x7f0b0077
-			public const int textView4 = 2131427447;
+			// aapt resource value: 0x7f0b0050
+			public const int textView = 2131427408;
 			
 			// aapt resource value: 0x7f0b0051
-			public const int textView5 = 2131427409;
+			public const int textView2 = 2131427409;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int text_view_name = 2131427417;
+			// aapt resource value: 0x7f0b0052
+			public const int textView3 = 2131427410;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int text_view_sales_price = 2131427419;
+			// aapt resource value: 0x7f0b0053
+			public const int textView4 = 2131427411;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int time = 2131427434;
+			// aapt resource value: 0x7f0b0054
+			public const int textView5 = 2131427412;
+			
+			// aapt resource value: 0x7f0b0064
+			public const int text_view_name = 2131427428;
+			
+			// aapt resource value: 0x7f0b0066
+			public const int text_view_sales_price = 2131427430;
+			
+			// aapt resource value: 0x7f0b0073
+			public const int time = 2131427443;
+			
+			// aapt resource value: 0x7f0b007c
+			public const int timeStamp = 2131427452;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int title = 2131427370;
@@ -1892,17 +1952,20 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f0b002e
 			public const int topPanel = 2131427374;
 			
+			// aapt resource value: 0x7f0b007b
+			public const int type = 2131427451;
+			
 			// aapt resource value: 0x7f0b0008
 			public const int up = 2131427336;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int useLogo = 2131427346;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int variationTypes = 2131427421;
+			// aapt resource value: 0x7f0b0068
+			public const int variationTypes = 2131427432;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int welcome_text = 2131427427;
+			// aapt resource value: 0x7f0b006c
+			public const int welcome_text = 2131427436;
 			
 			// aapt resource value: 0x7f0b0020
 			public const int withText = 2131427360;
@@ -2027,64 +2090,82 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			public const int abc_select_dialog_material = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int ActivityCodeBlocks = 2130903065;
+			public const int activity_edit_info = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int ActivityCodeBlocks2 = 2130903066;
+			public const int activity_preview = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int ActivityLiveVariables = 2130903067;
+			public const int activity_preview_logs = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int ActivityLiveVariablesItem = 2130903068;
+			public const int activity_preview_vars = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int LandingTable = 2130903069;
+			public const int ActivityCodeBlocks = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int LandingTableItem = 2130903070;
+			public const int ActivityCodeBlocks2 = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int Main = 2130903071;
+			public const int ActivityLiveVariables = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int notification_media_action = 2130903072;
+			public const int ActivityLiveVariablesItem = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_media_cancel_action = 2130903073;
+			public const int LandingTable = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_template_big_media = 2130903074;
+			public const int LandingTableItem = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_template_big_media_narrow = 2130903075;
+			public const int Main = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_template_lines = 2130903076;
+			public const int notification_media_action = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_template_media = 2130903077;
+			public const int notification_media_cancel_action = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_part_chronometer = 2130903078;
+			public const int notification_template_big_media = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_template_part_time = 2130903079;
+			public const int notification_template_big_media_narrow = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int select_dialog_item_material = 2130903080;
+			public const int notification_template_lines = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int select_dialog_multichoice_material = 2130903081;
+			public const int notification_template_media = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int select_dialog_singlechoice_material = 2130903082;
+			public const int notification_template_part_chronometer = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int support_simple_spinner_dropdown_item = 2130903083;
+			public const int notification_template_part_time = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int VisualEditor = 2130903084;
+			public const int row_log = 2130903084;
+			
+			// aapt resource value: 0x7f03002d
+			public const int row_var = 2130903085;
+			
+			// aapt resource value: 0x7f03002e
+			public const int select_dialog_item_material = 2130903086;
+			
+			// aapt resource value: 0x7f03002f
+			public const int select_dialog_multichoice_material = 2130903087;
+			
+			// aapt resource value: 0x7f030030
+			public const int select_dialog_singlechoice_material = 2130903088;
+			
+			// aapt resource value: 0x7f030031
+			public const int support_simple_spinner_dropdown_item = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int VisualEditor = 2130903090;
 			
 			static Layout()
 			{
@@ -2118,10 +2199,13 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			public const int menu_main = 2131558405;
 			
 			// aapt resource value: 0x7f0d0006
-			public const int menu_single_variation_type = 2131558406;
+			public const int menu_preview_exps = 2131558406;
 			
 			// aapt resource value: 0x7f0d0007
-			public const int menu_visual_editor = 2131558407;
+			public const int menu_single_variation_type = 2131558407;
+			
+			// aapt resource value: 0x7f0d0008
+			public const int menu_visual_editor = 2131558408;
 			
 			static Menu()
 			{
@@ -2193,131 +2277,188 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f050012
 			public const int abc_toolbar_collapse_description = 2131034130;
 			
-			// aapt resource value: 0x7f050017
-			public const int action_settings = 2131034135;
-			
 			// aapt resource value: 0x7f050014
-			public const int app_name = 2131034132;
-			
-			// aapt resource value: 0x7f050019
-			public const int button_gotit = 2131034137;
-			
-			// aapt resource value: 0x7f050028
-			public const int code_blocks_company = 2131034152;
-			
-			// aapt resource value: 0x7f05001d
-			public const int code_blocks_desc = 2131034141;
-			
-			// aapt resource value: 0x7f050027
-			public const int code_blocks_signin = 2131034151;
-			
-			// aapt resource value: 0x7f050026
-			public const int code_blocks_string = 2131034150;
-			
-			// aapt resource value: 0x7f050023
-			public const int discount_string = 2131034147;
-			
-			// aapt resource value: 0x7f05001f
-			public const int discount_tagline = 2131034143;
-			
-			// aapt resource value: 0x7f05001e
-			public const int hello_world = 2131034142;
-			
-			// aapt resource value: 0x7f050036
-			public const int item_name_1 = 2131034166;
-			
-			// aapt resource value: 0x7f050037
-			public const int item_name_2 = 2131034167;
-			
-			// aapt resource value: 0x7f050038
-			public const int item_name_3 = 2131034168;
-			
-			// aapt resource value: 0x7f050039
-			public const int item_name_4 = 2131034169;
-			
-			// aapt resource value: 0x7f05003a
-			public const int item_name_5 = 2131034170;
-			
-			// aapt resource value: 0x7f05003b
-			public const int item_name_6 = 2131034171;
-			
-			// aapt resource value: 0x7f05001c
-			public const int live_variables_desc = 2131034140;
-			
-			// aapt resource value: 0x7f050025
-			public const int live_variables_title = 2131034149;
+			public const int act_exp_title = 2131034132;
 			
 			// aapt resource value: 0x7f05002a
-			public const int msrp_1 = 2131034154;
+			public const int action_settings = 2131034154;
 			
-			// aapt resource value: 0x7f05002b
-			public const int msrp_2 = 2131034155;
+			// aapt resource value: 0x7f050027
+			public const int app_name = 2131034151;
+			
+			// aapt resource value: 0x7f050015
+			public const int apply_button_title = 2131034133;
+			
+			// aapt resource value: 0x7f050016
+			public const int button_done = 2131034134;
 			
 			// aapt resource value: 0x7f05002c
-			public const int msrp_3 = 2131034156;
+			public const int button_gotit = 2131034156;
 			
-			// aapt resource value: 0x7f05002d
-			public const int msrp_4 = 2131034157;
+			// aapt resource value: 0x7f050017
+			public const int button_reset = 2131034135;
 			
-			// aapt resource value: 0x7f05002e
-			public const int msrp_5 = 2131034158;
+			// aapt resource value: 0x7f050018
+			public const int cd_log_row_icon = 2131034136;
 			
-			// aapt resource value: 0x7f05002f
-			public const int msrp_6 = 2131034159;
+			// aapt resource value: 0x7f05003b
+			public const int code_blocks_company = 2131034171;
 			
 			// aapt resource value: 0x7f050030
-			public const int sale_1 = 2131034160;
+			public const int code_blocks_desc = 2131034160;
 			
-			// aapt resource value: 0x7f050031
-			public const int sale_2 = 2131034161;
+			// aapt resource value: 0x7f05003a
+			public const int code_blocks_signin = 2131034170;
+			
+			// aapt resource value: 0x7f050039
+			public const int code_blocks_string = 2131034169;
+			
+			// aapt resource value: 0x7f050036
+			public const int discount_string = 2131034166;
 			
 			// aapt resource value: 0x7f050032
-			public const int sale_3 = 2131034162;
+			public const int discount_tagline = 2131034162;
 			
-			// aapt resource value: 0x7f050033
-			public const int sale_4 = 2131034163;
+			// aapt resource value: 0x7f050019
+			public const int edit_info_ab_title = 2131034137;
 			
-			// aapt resource value: 0x7f050034
-			public const int sale_5 = 2131034164;
+			// aapt resource value: 0x7f05001a
+			public const int edit_mode_desc = 2131034138;
 			
-			// aapt resource value: 0x7f050035
-			public const int sale_6 = 2131034165;
+			// aapt resource value: 0x7f05001b
+			public const int exit_preview_button = 2131034139;
+			
+			// aapt resource value: 0x7f050031
+			public const int hello_world = 2131034161;
+			
+			// aapt resource value: 0x7f050049
+			public const int item_name_1 = 2131034185;
+			
+			// aapt resource value: 0x7f05004a
+			public const int item_name_2 = 2131034186;
+			
+			// aapt resource value: 0x7f05004b
+			public const int item_name_3 = 2131034187;
+			
+			// aapt resource value: 0x7f05004c
+			public const int item_name_4 = 2131034188;
+			
+			// aapt resource value: 0x7f05004d
+			public const int item_name_5 = 2131034189;
+			
+			// aapt resource value: 0x7f05004e
+			public const int item_name_6 = 2131034190;
+			
+			// aapt resource value: 0x7f05002f
+			public const int live_variables_desc = 2131034159;
+			
+			// aapt resource value: 0x7f050038
+			public const int live_variables_title = 2131034168;
+			
+			// aapt resource value: 0x7f05001c
+			public const int menu_activity = 2131034140;
+			
+			// aapt resource value: 0x7f05001d
+			public const int menu_quit = 2131034141;
+			
+			// aapt resource value: 0x7f05003d
+			public const int msrp_1 = 2131034173;
+			
+			// aapt resource value: 0x7f05003e
+			public const int msrp_2 = 2131034174;
+			
+			// aapt resource value: 0x7f05003f
+			public const int msrp_3 = 2131034175;
+			
+			// aapt resource value: 0x7f050040
+			public const int msrp_4 = 2131034176;
+			
+			// aapt resource value: 0x7f050041
+			public const int msrp_5 = 2131034177;
+			
+			// aapt resource value: 0x7f050042
+			public const int msrp_6 = 2131034178;
+			
+			// aapt resource value: 0x7f05001e
+			public const int navigation_section_description = 2131034142;
+			
+			// aapt resource value: 0x7f05001f
+			public const int navigation_section_title = 2131034143;
+			
+			// aapt resource value: 0x7f050020
+			public const int original_var_label = 2131034144;
+			
+			// aapt resource value: 0x7f050021
+			public const int row_title_error = 2131034145;
+			
+			// aapt resource value: 0x7f050022
+			public const int row_title_event = 2131034146;
+			
+			// aapt resource value: 0x7f050043
+			public const int sale_1 = 2131034179;
+			
+			// aapt resource value: 0x7f050044
+			public const int sale_2 = 2131034180;
+			
+			// aapt resource value: 0x7f050045
+			public const int sale_3 = 2131034181;
+			
+			// aapt resource value: 0x7f050046
+			public const int sale_4 = 2131034182;
+			
+			// aapt resource value: 0x7f050047
+			public const int sale_5 = 2131034183;
+			
+			// aapt resource value: 0x7f050048
+			public const int sale_6 = 2131034184;
+			
+			// aapt resource value: 0x7f050023
+			public const int start_preview_button = 2131034147;
 			
 			// aapt resource value: 0x7f050013
 			public const int status_bar_notification_info_overflow = 2131034131;
 			
-			// aapt resource value: 0x7f050029
-			public const int take_me_to_widgets = 2131034153;
-			
-			// aapt resource value: 0x7f050022
-			public const int title_activity_code_blocks = 2131034146;
-			
 			// aapt resource value: 0x7f05003c
-			public const int title_activity_code_blocks2 = 2131034172;
-			
-			// aapt resource value: 0x7f050018
-			public const int title_activity_landing_table = 2131034136;
-			
-			// aapt resource value: 0x7f050021
-			public const int title_activity_live_variables = 2131034145;
+			public const int take_me_to_widgets = 2131034172;
 			
 			// aapt resource value: 0x7f050024
-			public const int title_activity_live_variables_list = 2131034148;
+			public const int timestamp_just_now_label = 2131034148;
 			
-			// aapt resource value: 0x7f05001a
-			public const int title_activity_single_variation_type = 2131034138;
+			// aapt resource value: 0x7f050035
+			public const int title_activity_code_blocks = 2131034165;
 			
-			// aapt resource value: 0x7f050020
-			public const int title_activity_visual_editor = 2131034144;
+			// aapt resource value: 0x7f05004f
+			public const int title_activity_code_blocks2 = 2131034191;
 			
-			// aapt resource value: 0x7f05001b
-			public const int visual_editor_desc = 2131034139;
+			// aapt resource value: 0x7f05002b
+			public const int title_activity_landing_table = 2131034155;
 			
-			// aapt resource value: 0x7f050016
-			public const int welcome_text = 2131034134;
+			// aapt resource value: 0x7f050034
+			public const int title_activity_live_variables = 2131034164;
 			
-			// aapt resource value: 0x7f050015
-			public const int welcome_title = 2131034133;
+			// aapt resource value: 0x7f050037
+			public const int title_activity_live_variables_list = 2131034167;
+			
+			// aapt resource value: 0x7f05002d
+			public const int title_activity_single_variation_type = 2131034157;
+			
+			// aapt resource value: 0x7f050033
+			public const int title_activity_visual_editor = 2131034163;
+			
+			// aapt resource value: 0x7f050025
+			public const int variations_section_description = 2131034149;
+			
+			// aapt resource value: 0x7f050026
+			public const int variations_section_title = 2131034150;
+			
+			// aapt resource value: 0x7f05002e
+			public const int visual_editor_desc = 2131034158;
+			
+			// aapt resource value: 0x7f050029
+			public const int welcome_text = 2131034153;
+			
+			// aapt resource value: 0x7f050028
+			public const int welcome_title = 2131034152;
 			
 			static String()
 			{
@@ -2344,8 +2485,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			// aapt resource value: 0x7f080082
 			public const int Animation_AppCompat_DropDownUp = 2131230850;
 			
-			// aapt resource value: 0x7f08013c
-			public const int AppTheme = 2131231036;
+			// aapt resource value: 0x7f080141
+			public const int AppTheme = 2131231041;
 			
 			// aapt resource value: 0x7f080083
 			public const int Base_AlertDialog_AppCompat = 2131230851;
@@ -3282,6 +3423,21 @@ namespace Optimizely.Xamarin.Droid.TestApp
 			
 			// aapt resource value: 0x7f08013b
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231035;
+			
+			// aapt resource value: 0x7f08013c
+			public const int baseTheme = 2131231036;
+			
+			// aapt resource value: 0x7f08013d
+			public const int editInfoTheme = 2131231037;
+			
+			// aapt resource value: 0x7f08013e
+			public const int previewExpTheme = 2131231038;
+			
+			// aapt resource value: 0x7f08013f
+			public const int previewLogTheme = 2131231039;
+			
+			// aapt resource value: 0x7f080140
+			public const int previewVarTheme = 2131231040;
 			
 			static Style()
 			{
