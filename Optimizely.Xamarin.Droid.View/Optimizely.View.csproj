@@ -59,9 +59,9 @@
     <InputJar Include="Jars\Optimizely-Shared-1.5.0-SNAPSHOT.jar" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Optimizely.Xamarin.Droid\Optimizely.Xamarin.Droid.csproj">
+    <ProjectReference Include="..\Optimizely.Xamarin.Droid\Optimizely.Core.csproj">
       <Project>{f316cf0b-a082-484c-b33c-2600bec08374}</Project>
-      <Name>Optimizely.Xamarin.Droid</Name>
+      <Name>Optimizely.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />

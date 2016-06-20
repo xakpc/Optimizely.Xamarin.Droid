@@ -30,6 +30,10 @@
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelySwitchVariationInfoView']" />
   <remove-node path="/api/package[@name='com.optimizely.Preview']/class[@name='OptimizelyTestDetailsInfoView']" />-->
 
+  <!-- Remove get from properties to made them static -->
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='Optimizely']/method[@name='isEditGestureEnabled' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.optimizely']/class[@name='Optimizely']/method[@name='isVisualExperimentsEnabled' and count(parameter)=0]" />
+  
   <!-- Remove Everything that not working -->
   <remove-node path="/api/package[@name='com.optimizely.integration']/class[@name='OptimizelyClassLoaderTask']" />
   <remove-node path="/api/package[@name='com.optimizely.Audiences']" />

@@ -80,9 +80,8 @@ namespace Optimizely.Xamarin.Droid.TestApp
 
             // [OPTIMIZELY] (OPTIONAL) Customize how often the datafile is downloaded (By default network calls are made every 2 minutes)
             // Optimizely.setDataFileDownloadInterval(120);
-
-            Com.Optimizely.Optimizely.EnableEditor();
-
+            Com.Optimizely.Optimizely.EditGestureEnabled = false;
+            
             // [OPTIMIZELY] (REQUIRED) Replace this line with your API token, and don't forget to go to
             // your AndroidManifest.xml (e.g. it should look like optly123456, replace 123456 with your project id)
             // Replace <YOUR_API_TOKEN> with your API Token from your Optimizely Dashboard
