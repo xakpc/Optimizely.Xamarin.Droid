@@ -47,15 +47,13 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\Optimizely-View-1.5.0-SNAPSHOT.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ReferenceJar Include="Jars\Optimizely-View-1.5.0-SNAPSHOT.jar" />
   </ItemGroup>
   <ItemGroup>
     <InputJar Include="Jars\Optimizely-Shared-1.5.0-SNAPSHOT.jar" />

@@ -52,6 +52,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\Optimizely-Core-1.5.0-SNAPSHOT.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -63,9 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\Optimizely-Shared-1.5.0-SNAPSHOT.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedJar Include="Jars\Optimizely-Core-1.5.0-SNAPSHOT.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\okhttp-3.3.1.jar" />
